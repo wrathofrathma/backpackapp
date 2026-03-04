@@ -99,6 +99,7 @@ Y → File → Advanced → Hash
     R1 → Compare MD5
 
 Y → UI
+    R2 → Toggle Input Overlay (off by default)
     L2 → Swap Screens
 
 Y → Selection
