@@ -114,15 +114,14 @@ Y → System
 
 ## Roadmap
 
-- [ ] FTP server
-- [ ] Samba server
-- [ ] Cloud storage integration (Google Drive, Dropbox)
-- [ ] Root access support
-- [ ] Customizable themes
-- [ ] Bookmarks & tags
-- [ ] Single-screen mode with split pane / tabs
-- [ ] Disk space analyzer
-- [ ] Touch input support
+- [ ] FTP server (target: v1.0)
+- [ ] Disk space analyzer (target: v1.5)
+- [ ] Single-screen mode with split pane / tabs (target: v2.0)
+- [ ] Touch input support (target: v2.5)
+- [ ] Cloud storage integration (Google Drive, Dropbox) (target: v3.0)
+- [ ] Root access support (target: v3.0)
+- [ ] Customizable themes (target: v3.5)
+- [ ] Samba server (target: TBD)
 
 ## About
 
