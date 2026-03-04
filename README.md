@@ -10,12 +10,16 @@ A file manager designed specifically for Android gaming handhelds with external 
 
 ### Screenshots
 
-![Backpack Screenshot 1](screenshots/screenshot-01.png)
-![Backpack Screenshot 2](screenshots/screenshot-02.png)
-![Backpack Screenshot 3](screenshots/screenshot-03.png)
-![Backpack Screenshot 4](screenshots/screenshot-04.png)
-![Backpack Screenshot 5](screenshots/screenshot-05.png)
-![Backpack Screenshot 6](screenshots/screenshot-06.png)
+<p align="center">
+  <img src="screenshots/screenshot-01.png" width="32%" />
+  <img src="screenshots/screenshot-02.png" width="32%" />
+  <img src="screenshots/screenshot-03.png" width="32%" />
+</p>
+<p align="center">
+  <img src="screenshots/screenshot-04.png" width="32%" />
+  <img src="screenshots/screenshot-05.png" width="32%" />
+  <img src="screenshots/screenshot-06.png" width="32%" />
+</p>
 
 <!-- 
 ![Backpack Screenshot](screenshots/screenshot-1.png)
