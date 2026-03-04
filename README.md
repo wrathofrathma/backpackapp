@@ -4,6 +4,10 @@
 
 A file manager designed specifically for Android gaming handhelds with external display support. Navigate entirely with your controller using a which-key-style hotkey system—no touch required.
 
+## Demo
+
+- YouTube Short: https://www.youtube.com/shorts/DgoBEA4VJ3I
+
 <!-- 
 ![Backpack Screenshot](screenshots/screenshot-1.png)
 -->
