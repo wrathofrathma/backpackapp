@@ -15,7 +15,6 @@ A file manager designed specifically for Android gaming handhelds with external 
 - **Archive support** — Browse, extract, and create ZIP, TAR.GZ, and 7Z archives
 - **Background job manager** — Queue long-running operations with progress tracking
 - **Favorites & recents** — Quick access to frequently used directories
-- **Material 3 UI** — Modern Android design with dynamic colors
 
 ## Installation
 
@@ -48,7 +47,8 @@ Navigation uses a which-key-style menu system. Press **Y** to open the hotkey ov
 | R1 | Page down |
 | L2 | Open Job Manager |
 | R2 | Open Recents |
-| Right Stick (directional) | Swap display focus |
+| Right Stick (directional) | Change focused screen |
+| R3 (Right Stick Click) | Swap screens |
 | Start | System menu |
 | Select | Multi-select |
 
