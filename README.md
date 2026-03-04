@@ -37,6 +37,11 @@ A file manager designed specifically for Android gaming handhelds with external 
 
 Download the latest APK from the [Releases](https://github.com/wrathofrathma/backpackapp/releases) page.
 
+You can also use [Obtainium](https://github.com/ImranR98/Obtainium) for update tracking:
+
+- Add this repo URL: `https://github.com/wrathofrathma/backpackapp`
+- Enable **Include pre-releases** in Obtainium so alpha builds are detected
+
 ### Requirements
 
 - Android 13+ (SDK 33)
