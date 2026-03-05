@@ -67,7 +67,7 @@ Navigation uses a which-key-style menu system. Press **Y** to open the hotkey ov
 | Y | Open hotkey menu |
 | L1 | Page up |
 | R1 | Page down |
-| L2 | Open Job Manager |
+| L2 | Open Applications (App Storage) |
 | R2 | Open Recents |
 | Right Stick (directional) | Change focused screen |
 | R3 (Right Stick Click) | Swap screens |
@@ -80,7 +80,7 @@ Navigation uses a which-key-style menu system. Press **Y** to open the hotkey ov
 Y → Main Layer
     X  → File
     R1 → UI
-    Start → System
+    Start → Open
     Select → Selection
     R2 → Refresh
     L2 → Favorite
@@ -130,9 +130,11 @@ Y → Selection
     L1 → Select All
     R1 → Invert Selection
 
-Y → System
-    L2 → Job Manager
-    R2 → Recents
+Y → Open
+    X  → Favorites
+    Y  → Recents
+    L2 → Applications
+    R2 → Job Manager
 ```
 
 ## Roadmap
