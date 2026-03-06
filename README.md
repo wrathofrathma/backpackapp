@@ -1,12 +1,36 @@
 # Backpack
 
-> Dual-screen file manager for Android gaming handhelds with full gamepad navigation
+> Dual-screen file manager for Android gaming handhelds, built for full gamepad navigation
 
-A file manager designed specifically for Android gaming handhelds with external display support. Navigate entirely with your controller using a which-key-style hotkey system—no touch required.
+A file manager designed for dual screen handhelds with controller input as a first class citizen. 
+Inspired by `which-key`, I replaced most touch inputs with key-chords with a visual hotkey overlay.
+
+Single-screen support will come as one of the next major refactors, since I can imagine most single screen
+gaming handhelds, or docked devices still could use controller-first file management.
+
+## What is which-key?
+`which-key` is a plugin in the editor ecosystem (neovim, emacs, etc), where most actions are exposed
+through **key-chords**. Key-chords are simple a sequence of keys, that provoke some functionality to
+be triggered. Which makes it perfect for controller-input where we have limited keys to map to many 
+functions.
+
+One of the major features of this experience, is also that these key-chords are discoverable due to a
+pop-up menu that shows what each button does, and pressing a button takes us to another menu or runs an 
+action.
+
+In Backpack, you start a chord with `Y`, then choose from the next layer shown in the overlay.
+
+Examples:
+
+- `Y -> File -> New -> New Folder`
+- `Y -> File -> Advanced -> Compression -> Compress ZIP`
+- `Y -> File -> Advanced -> Hash -> SHA256 Sum`
+- `Y -> UI -> Swap Screens`
+- `Y -> Selection -> Select All`
 
 ## Demo
 
-- YouTube Short: https://www.youtube.com/shorts/DgoBEA4VJ3I
+- YouTube Short (Prerelease v0.1.0): https://www.youtube.com/shorts/DgoBEA4VJ3I
 
 ### Screenshots
 
@@ -27,11 +51,12 @@ A file manager designed specifically for Android gaming handhelds with external 
 
 ## Features
 
-- **Dual-pane file management** — Browse files on primary and external displays simultaneously
-- **Full gamepad navigation** — Which-key-style hierarchical hotkey menus for discoverable controls
-- **Archive support** — Browse, extract, and create ZIP, TAR.GZ, and 7Z archives
-- **Background job manager** — Queue long-running operations with progress tracking
-- **Favorites & recents** — Quick access to frequently used directories
+- **Dual-pane file management**: Browse files on primary and external displays at the same time
+- **Full gamepad navigation**: Which-key-style hotkey menus to fully replace the need for touch.
+- **Archive support**: Browse, extract, and create ZIP, TAR.GZ, and 7Z archives
+- **Background job manager**: Queue long operations and track progress
+- **Favorites and recents**: Quick access to directories you use often
+- **Scoped Storage**: Find and access local storage files for your applications.
 
 ## Installation
 
@@ -49,13 +74,13 @@ You can also use [Obtainium](https://github.com/ImranR98/Obtainium) for update t
 
 ## Device Compatibility
 
-Designed and tested on the **Ayn Thor**.
+Built and tested on the **Ayn Thor**.
 
-Other Android 13+ devices may work, but compatibility outside Ayn Thor is not guaranteed yet.
+Other Android 13+ dual-screen devices may work too but no promises yet.
 
 ## Controller Mapping
 
-Navigation uses a which-key-style menu system. Press **Y** to open the hotkey overlay, then follow the on-screen prompts.
+These are the base key-shortcuts available outside of the primary hotkey menu.
 
 | Button | Function |
 |--------|----------|
@@ -74,7 +99,8 @@ Navigation uses a which-key-style menu system. Press **Y** to open the hotkey ov
 | Start | System menu |
 | Select | Multi-select |
 
-### Hotkey Menu Structure
+### Key-chords / hotkey menu
+Everything else is accessed via **key-chords**, starting with **Y**.
 
 ```
 Y → Main Layer
@@ -139,6 +165,8 @@ Y → Open
 
 ## Roadmap
 
+Rough roadmap for now:
+
 - [ ] FTP server (target: v1.0)
 - [ ] Disk space analyzer (target: v1.5)
 - [ ] Single-screen mode with split pane / tabs (target: v2.0)
@@ -150,8 +178,4 @@ Y → Open
 
 ## About
 
-Source code is maintained in a private repository. Releases are published here.
-
----
-
-© 2024-2026
+Source code is maintained in a private repository. Public releases are published here.
